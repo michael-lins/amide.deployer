@@ -1,0 +1,9 @@
+service: myapp
+image: yourdockerhub/myapp
+servers:
+  web:
+    - your.server.ip
+env:
+  secret:
+    RAILS_MASTER_KEY: your_master_key
+    DATABASE_URL: postgres://user:pass@localhost:5432/mydb
