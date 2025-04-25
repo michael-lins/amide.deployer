@@ -1,0 +1,37 @@
+# Ignore secret envs
+*.env
+*.env.*
+
+# Ignore backups and temp folders
+/backups/
+/files_tmp/
+/*.sql
+/*.tar.gz
+
+# OS crap
+.DS_Store
+Thumbs.db
+
+# Editor junk
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Node stuff (in case we use tools)
+/node_modules/
+/npm-debug.log*
+
+# Docker artifacts
+**/.docker
+
+# Kamal cache (if any)
+.kamal/
+
+# Certbot artifacts
+/letsencrypt/
