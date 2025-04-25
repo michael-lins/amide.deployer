@@ -1,0 +1,2 @@
+crontab -e
+0 3 * * * cd /path/to/amide.deployer/rimi && bash backup_rimi.sh
